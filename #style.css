@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte - Sistema Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🌱 Agro Forte</h1>
+        <p>Produção eficiente com responsabilidade ambiental</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#sustentabilidade">Sustentabilidade</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="hero">
+        <h2>O Futuro do Campo é Sustentável</h2>
+        <p>Unindo tecnologia, produtividade e preservação ambiental.</p>
+        <button>Saiba Mais</button>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre o Agro Forte</h2>
+        <p>
+            O Agro Forte promove práticas agrícolas modernas que aumentam
+            a produtividade e preservam os recursos naturais para as
+            futuras gerações.
+        </p>
+    </section>
+
+    <section id="sustentabilidade">
+        <h2>Sistema Sustentável</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>💧 Uso Consciente da Água</h3>
+                <p>Irrigação inteligente para reduzir desperdícios.</p>
+            </div>
+
+            <div class="card">
+                <h3>🌿 Agricultura Verde</h3>
+                <p>Práticas que preservam o solo e a biodiversidade.</p>
+            </div>
+
+            <div class="card">
+                <h3>☀ Energia Renovável</h3>
+                <p>Uso de energia solar e fontes limpas na produção.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contato">
+        <p>© 2026 Agro Forte - Sistema Sustentável</p>
+        <p>Email: contato@agroforte.com.br</p>
+    </footer>
+
+</body>
+</html>
