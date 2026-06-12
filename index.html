@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroTech - O Futuro do Campo</title>
+    <style>
+        :root {
+            --verde-claro: #81C784;
+            --verde-escuro: #2E7D32;
+            --marrom-terra: #5D4037;
+            --bege-fundo: #F1F8E9;
+            --texto-escuro: #1B5E20;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bege-fundo);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--verde-escuro);
+            color: white;
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 1.5rem;
+            font-weight: 600;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://unsplash.com') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .btn {
+            background-color: var(--verde-claro);
+            color: var(--marrom-terra);
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: var(--verde-escuro);
+            color: white;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            width: 30%;
+            min-width: 280px;
+            margin: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .card h3 {
+            color: var(--verde-escuro);
+            margin-bottom: 1rem;
+        }
+
+        .footer {
+            background-color: var(--marrom-terra);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🌱 AgroTech</h1>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Soluções</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>A Força que Move o Mundo</h2>
+        <p>Tecnologia e sustentabilidade aliadas ao campo para produzir mais e melhor.</p>
+        <a href="#" class="btn">Saiba Mais</a>
+    </section>
+
+    <section class="features">
+        <div class="card">
+            <h3>🚜 Agricultura de Precisão</h3>
+            <p>Uso de inteligência de dados, maquinário inteligente e drones para maximizar a colheita e otimizar o uso de insumos.</p>
+        </div>
+        <div class="card">
+            <h3>🌱 Sustentabilidade</h3>
+            <p>Práticas integradas de preservação do solo e manejo orgânico garantindo um futuro mais verde para as próximas gerações.</p>
+        </div>
+        <div class="card">
+            <h3>📈 Agronegócio Inteligente</h3>
+            <p>Conexão direta da lavoura até o consumidor, garantindo rastreabilidade, qualidade e eficiência na cadeia de alimentos.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 AgroTech. O agro é pop, o agro é tech, o agro é tudo!</p>
+    </footer>
+
+</body>
+</html>
